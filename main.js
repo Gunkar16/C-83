@@ -37,8 +37,9 @@ function tm(e){
 
     last_position_of_x=current_position_of_x;
     last_position_of_y=current_position_of_y;
-    console.log("mousemove")
+
 }
+
 
 function clear_area(){
     CTX.clearRect(0,0,canvas.width,canvas.height);
